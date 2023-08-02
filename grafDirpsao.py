@@ -6,7 +6,7 @@ def func_ter_grau(x, a=1, b=1, c=1, d=1): # função que recebe 5 parâmetros de
     y = a*x**3 + b*x**2 + c*x + d
     return y
 
-lista_x = range(-5, 5,1)
+lista_x = range(-50, 50, 5)
 lista_y = []
 
 for i in lista_x:
